@@ -1,0 +1,64 @@
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+### Font
+
+- Font size (paragraph): 15px
+- Weights: 400, 700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  height: 100svh;
+}
+main {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 22vw;
+
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+.card .text {
+  text-align: center;
+  margin: 2rem 0;
+}
+.card h2 {
+  color: hsl(218, 44%, 22%);
+}
+.card p {
+  color: hsl(220, 15%, 55%);
+}
